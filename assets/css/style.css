@@ -1,57 +1,19 @@
-.intro {
-  background: no-repeat center bottom scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  background-position: top;
-  -o-background-size: cover;
-  background-image: linear-gradient(to top, rgba(0,0,0,0.6) 0%,rgba(0, 0, 0, 0.24) 100%), url('../img/intro-bg.jpg');
-  height: 100vh;
-  width: 100%;
-  z-index: -999;
-  position: fixed;
-}
-.logo {
-  padding: 5px;
-  font-size: 32px;
-  letter-spacing: 3px;
-  text-transform: lowercase!important;
-}
-img.logo-image {
-  width: 40px;
-}
-.intro-ticker{
-  font-size: 2rem;
-  font-weight: 800;
-}
-.intro-ticker-right-bg{
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.651), rgba(0, 0, 0, 0.459));
-}
-@media only screen and (min-width: 1200px) {
-  .intro-ticker{
-    font-size: 4rem;
-  }
- }
-@media only screen and (max-width: 1200px) {
-  .intro-ticker{
-    font-size: 3rem;
-  }
- }
-@media only screen and (max-width: 992px) {
-  .intro-ticker{
-    font-size: 2.5rem;
-  }
- }
- @media only screen and (max-width: 768px) {
-  .intro-ticker{
-    font-size: 2rem;
-  }
- }
-@media only screen and (max-width: 576px) {
-  .intro-ticker{
-    font-size: 1.5rem;
-  }
- }
+.leftcol{
+    background-color: #1F4E79;
+    color: #ffffff;
 
-
-
+}
+.profile-photo{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.negative-margin{
+    margin-left: -1.5rem;
+}
+.justify-text{
+    text-align: justify;
+}
+.fs-7{
+    font-size: .8rem;
+}
